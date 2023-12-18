@@ -106,6 +106,22 @@ function getPasswordOptions() {
   }
 }
 
+function generatePassword() {
+  getPasswordOptions();
+
+  let allCharacters = [];
+  if (includeSpecial) allCharacters = allCharacters.concat(specialCharacters);
+  if (includeNumeric) allCharacters = allCharacters.concat(numericCharacters);
+  if (includeLowercase) allCharacters = allCharacters.concat(lowerCasedCharacters);
+  if (includeUppercase) allCharacters = allCharacters.concat(upperCasedCharacters);
+
+  let generatedPassword = '';
+  for (let i = 0; i < passwordLength ; i++) {
+      let randomIndex = Math.floor(Math.random() * allCharacters.length);
+      generatedPassword += allCharacters[randomIndex];
+  }
+  return generatedPassword;
+}
 
 
 // Get references to the #generate element
