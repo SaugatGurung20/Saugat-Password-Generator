@@ -2,10 +2,12 @@
 ## Password generator of saugat gurung
 This application is about making password that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. 
 ## Installation guide
- To use the website just go to this link. https://saugatgurung20.github.io/SaugatGurung20-Portfolio/
+ To use the website just go to this link. https://saugatgurung20.github.io/Saugat-Password-Generator/
 ## Usage
- You can access it throught this link. https://saugatgurung20.github.io/SaugatGurung20-Portfolio/
- Basic layout of portfolio for future use
+ - You can access it throught this link. https://saugatgurung20.github.io/Saugat-Password-Generator/
+ - Press the generate button
+ - Enter your preferences when a pop up question comes
+ - It should generate your password in the box above the generate button
 ## License
 MIT License
 
