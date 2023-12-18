@@ -87,6 +87,7 @@ const upperCasedCharacters = [
   'Y',
   'Z'
 ];
+let includeSpecial, includeNumeric, includeLowercase, includeUppercase;
 
 function getPasswordOptions() {
   passwordLength = parseInt(prompt("How long do you want your password length to be?"));
@@ -106,6 +107,7 @@ function getPasswordOptions() {
   }
 }
 
+
 function generatePassword() {
   getPasswordOptions();
 
@@ -122,7 +124,6 @@ function generatePassword() {
   }
   return generatedPassword;
 }
-
 
 // Get references to the #generate element
 const generateBtn = document.querySelector('#generate');
